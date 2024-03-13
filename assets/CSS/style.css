@@ -1,0 +1,92 @@
+/*--- Apply styles for thr body ---*/
+body {
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+  background-color: antiquewhite;
+  margin-top: 60px;
+}
+
+/*--- Style for heading (h1) ---*/
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+  color: transparent;
+}
+
+/*--- Style for buttons ---*/
+.button {
+  width: 66px;
+  padding: 20px;
+  margin: 0 3px;
+  border: 2px solid rgb(248, 249, 245);
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #333333;
+  color: #F5F5F5;
+  opacity: 0.8;
+  text-align: center;
+  font-weight: 800;
+}
+
+/*--- Style for button on hover state ---*/
+button:hover {
+  background-color: aliceblue;
+  color: #000000;
+  border-color: #000000;
+}
+
+/*--- Style for each row in the calculator ---*/
+.row {
+  margin: 8px 0;
+}
+
+/*--- Style for input fields ---*/
+.row input {
+  width: 280px;
+  font-size: 20px;
+  margin-left: 3.5px;
+  padding: 10px 0px;
+  border: 2px double #30302d;
+  border-radius: 5px;
+  background-color: #bfbfbf;
+  color: #000000;
+  font-weight: bold;
+}
+
+/*--- Style for text alignment center ---*/
+.text-center {
+  text-align: center;
+}
+
+/*--- Style for flex container ---*/
+.flex {
+  display: flex;
+}
+
+/*--- Style for flex container ---*/
+.flex-col {
+  flex-direction: column;
+}
+
+/*--- Style for aligning items to the center ---*/
+.items-center {
+  align-items: center;
+}
+
+/*--- Style for container ---*/
+.container {
+  width: 100%;
+}
+
+/*--- Style for the main container ---*/
+#main {
+  background: linear-gradient(45deg, hsl(0, 0%, 0%), #739a73, hsl(66, 74%, 62%), #739a73, hsl(0, 0%, 0%));
+  border-radius: 10px;
+  padding: 20px;
+}
+
+/* Additional style for text alignment center and color */
+.text-center {
+  text-align: center;
+  color: #333333;
+}
